@@ -70,6 +70,12 @@ public class BoardAsync extends AsyncTask<String , Void, String>{
 
     protected void onPostExecute(String s) {
         Log.d(TAG, "넘겨받은 s 는 "+s);
+
+        /*리스트뷰의 어댑터를 갱신 시키자!!*/
+
+
         super.onPostExecute(s);
     }
+
+
 }
