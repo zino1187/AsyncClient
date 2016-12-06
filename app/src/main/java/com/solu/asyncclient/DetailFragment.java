@@ -10,22 +10,9 @@ import android.view.ViewGroup;
 
 /* 게시판 상세 보여주기*/
 public class DetailFragment extends Fragment{
-
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return null;
+        View view=null;
+        view=inflater.inflate(R.layout.fragment_detail, null);
+        return view;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
